@@ -9,7 +9,7 @@ const SoundButton = ({data}: SoundButtonType) => {
   const [play] = useSound(data.sound)
 
     return(
-        <div className='key' onClick={() =>{
+        <div className='key cursor-pointer ' onClick={() =>{
           console.log("first")
           // console.log(play)
           play()
